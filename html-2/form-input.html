@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Input Example</title>
+  </head>
+  <body>
+    <h1>Contoh Form Input</h1>
+
+    <form action="#" method="POST">
+      <!-- Input Text -->
+      <label for="fullname">Full Name:</label>
+      <input
+        type="text"
+        id="fullname"
+        name="fullname"
+        placeholder="nama panjang"
+        required
+      />
+
+      <!-- Input Email -->
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="john@example.com"
+        required
+      />
+
+      <!-- Input Password -->
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Enter password"
+        required
+      />
+
+      <!-- Input Number -->
+      <label for="age">Age:</label>
+      <input
+        type="number"
+        id="age"
+        name="age"
+        min="1"
+        max="120"
+        placeholder="25"
+      />
+
+      <!-- Input Date -->
+      <label for="birthdate">Date of Birth:</label>
+      <input type="date" id="birthdate" name="birthdate" />
+
+      <!-- Input Checkbox -->
+      <label style="display: inline; font-weight: normal">
+        <input type="checkbox" name="agree" />
+        I agree to the terms and conditions
+      </label>
+
+      <!-- Input Radio Button -->
+      <label>Gender:</label>
+      <label style="display: inline; margin-right: 20px">
+        <input type="radio" name="gender" value="male" />
+        Male
+      </label>
+      <label style="display: inline">
+        <input type="radio" name="gender" value="female" />
+        Female
+      </label>
+
+      <!-- Select Dropdown -->
+      <label for="country">Country:</label>
+      <select id="country" name="country">
+        <option value="">-- Select Country --</option>
+        <option value="indonesia">Indonesia</option>
+        <option value="malaysia">Malaysia</option>
+        <option value="singapore">Singapore</option>
+        <option value="thailand">Thailand</option>
+      </select>
+
+      <!-- Textarea -->
+      <label for="message">Message:</label>
+      <textarea
+        id="message"
+        name="message"
+        rows="4"
+        placeholder="Write your message here..."
+      ></textarea>
+
+      <!-- Input Submit Button -->
+      <button type="submit">Submit</button>
+
+      <!-- Input Reset Button -->
+      <button type="reset">Clear</button>
+    </form>
+
+    <!-- PENJELASAN TIPE INPUT -->
+    <hr style="margin-top: 40px" />
+    <h2>Penjelasan Tipe Input:</h2>
+    <ul>
+      <li><strong>type="text"</strong> - Input teks biasa</li>
+      <li><strong>type="email"</strong> - Input email dengan validasi</li>
+      <li>
+        <strong>type="password"</strong> - Input teks tersembunyi (password)
+      </li>
+      <li><strong>type="number"</strong> - Input angka saja</li>
+      <li><strong>type="date"</strong> - Input tanggal dengan date picker</li>
+      <li>
+        <strong>type="checkbox"</strong> - Pilihan multiple (bisa pilih lebih
+        dari satu)
+      </li>
+      <li>
+        <strong>type="radio"</strong> - Pilihan single (hanya bisa pilih satu)
+      </li>
+      <li><strong>&lt;select&gt;</strong> - Dropdown menu</li>
+      <li><strong>&lt;textarea&gt;</strong> - Area teks untuk input panjang</li>
+      <li><strong>type="submit"</strong> - Tombol untuk submit form</li>
+      <li><strong>type="reset"</strong> - Tombol untuk clear/reset form</li>
+    </ul>
+  </body>
+</html>
