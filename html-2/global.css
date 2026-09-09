@@ -4,8 +4,8 @@ body {
 
 .content {
   background-color: rgb(155, 155, 155);
-  padding: 30px;
-  margin: 40px;
-  border: 1px solid black;
+  padding: 10px;
+  margin: 20px;
+  border: solid black 1px;
   border-radius: 8px;
 }
