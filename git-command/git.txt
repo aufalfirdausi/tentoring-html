@@ -1,0 +1,3 @@
+buat clone
+
+git clone <code yang di copy dari github nya>
