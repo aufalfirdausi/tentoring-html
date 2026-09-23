@@ -1,3 +1,23 @@
-buat clone
+| Cek perubahan           | `git status`                |
+| Mulai Git               | `git init`                  |
+| Tambah semua file       | `git add .`                 |
+| Commit                  | `git commit -m "message"`   |
+| Lihat history           | `git log --oneline`         |
+| Push                    | `git push`                  |
+| Pull                    | `git pull`                  |
+| Clone                   | `git clone URL`             |
+| Lihat branch            | `git branch`                |
+| Buat branch             | `git branch nama`           |
+| Buat + pindah branch    | `git switch -c nama`        |
+| Pindah branch           | `git switch nama`           |
+| Merge                   | `git merge nama`            |
+| Lihat perubahan         | `git diff`                  |
+| Batalkan perubahan file | `git restore file`          |
+| Unstage file            | `git restore --staged file` |
+| Lihat remote            | `git remote -v`             |
+| Tambah remote           | `git remote add origin URL` |
+.
 
-git clone <code yang di copy dari github nya>
+pertama harus pastiin dulu path atau directory kalian bener,
+
+ TERMINAL =>  pwd, -> kalo bener baru boleh langsung git ini.
